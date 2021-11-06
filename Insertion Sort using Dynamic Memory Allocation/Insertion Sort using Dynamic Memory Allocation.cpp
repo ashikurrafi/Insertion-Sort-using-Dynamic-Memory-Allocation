@@ -27,5 +27,6 @@ int main()
 	{
 		cout << array[i] << "\t";
 	}
+	delete[]array;
 	return 0;
 }
